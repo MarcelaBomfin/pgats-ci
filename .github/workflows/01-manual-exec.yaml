@@ -1,21 +1,18 @@
-image: node:24
+name: Execução Manual
 
-stages:
-  - test
+on:
+  workflow_dispatch:
 
-e2e-tests:
-  stage: test
+jobs:
+  e2e-tests:
+    runs-on: ubuntu-latest
 
-  script:
-    - yarn install
-    - npx playwright install --with-deps
-    - yarn run e2e
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
 
-  artifacts:
-    when: always
-    paths:
-      - allure-results/
-      - playwright-report/
-      - test-results/
-      - results.xml
-    expire_in: 10 days
+      - run: yarn install
+      - run: npx playwright install --with-deps
+      - run: yarn run e2e
