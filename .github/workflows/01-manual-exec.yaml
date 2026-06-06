@@ -18,4 +18,4 @@ e2e-tests:
       - playwright-report/
       - test-results/
       - results.xml
-    expire_in: 7 days
+    expire_in: 10 days
