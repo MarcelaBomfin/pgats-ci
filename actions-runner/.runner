@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 21,
+  "agentName": "PAT-0652",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus23.actions.githubusercontent.com/5Ci9BHIAoJ3TJIPBA5B2ifPKATrNKM0OwJ1k4pX6eHBKkhn3Pa/",
+  "gitHubUrl": "https://github.com/MarcelaBomfin/pgats-ci",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

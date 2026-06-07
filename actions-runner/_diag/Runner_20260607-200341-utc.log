@@ -1,0 +1,4 @@
+[2026-06-07 20:03:41Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2026-06-07 20:03:41Z INFO HostContext] Well known directory 'Bin': 'C:\Projetos\pgats-ci\actions-runner\bin'
+[2026-06-07 20:03:41Z INFO HostContext] Well known directory 'Root': 'C:\Projetos\pgats-ci\actions-runner'
+[2026-06-07 20:03:41Z INFO HostContext] Well known config file 'Credentials': 'C:\Projetos\pgats-ci\actions-runner\.credentials'
